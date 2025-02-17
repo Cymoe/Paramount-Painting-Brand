@@ -1,6 +1,6 @@
 import React from 'react';
 import { Phone, Mail, Clock, MapPin, Paintbrush as Paint, Shield, ThumbsUp, Sparkles, Star, CheckCircle2, Image as ImageIcon, Calendar, Building2, Users, Trophy, Wrench } from 'lucide-react';
-import logo from './components/logo.png';
+import logo from './components/Logo.png';
 
 function App() {
   const locations = [
