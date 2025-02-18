@@ -140,22 +140,22 @@ function App() {
 
   const stats = [
     {
-      icon: <Building2 className="h-8 w-8 text-pink-400" />,
+      icon: <Building2 className="h-8 w-8 text-pink-400 mx-auto" />,
       value: "15,000+",
       label: "Projects Completed"
     },
     {
-      icon: <Users className="h-8 w-8 text-pink-400" />,
+      icon: <Users className="h-8 w-8 text-pink-400 mx-auto" />,
       value: "150+",
       label: "Professional Painters"
     },
     {
-      icon: <MapPin className="h-8 w-8 text-pink-400" />,
+      icon: <MapPin className="h-8 w-8 text-pink-400 mx-auto" />,
       value: "4",
       label: "Major Markets"
     },
     {
-      icon: <Trophy className="h-8 w-8 text-pink-400" />,
+      icon: <Trophy className="h-8 w-8 text-pink-400 mx-auto" />,
       value: "25+",
       label: "Years Experience"
     }
@@ -209,7 +209,7 @@ function App() {
             </div>
             <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-8">
               {stats.map((stat, index) => (
-                <div key={index} className="text-center">
+                <div key={index} className="text-center flex flex-col items-center">
                   {stat.icon}
                   <div className="mt-2 text-2xl font-bold">{stat.value}</div>
                   <div className="text-sm opacity-80">{stat.label}</div>
