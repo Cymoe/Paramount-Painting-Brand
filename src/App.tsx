@@ -33,28 +33,28 @@ function App() {
   const reviews = [
     {
       name: "Sarah Johnson",
-      text: "Paint Puncher transformed our entire office complex. Their team handled the large-scale project professionally and delivered exceptional results.",
+      text: "Paramount Painting transformed our entire office complex. Their team handled the large-scale project professionally and delivered exceptional results.",
       rating: 5,
       location: "Denver, CO",
       type: "Commercial Client"
     },
     {
       name: "Mike Anderson",
-      text: "We've used Paint Puncher for multiple properties across Phoenix. Their consistency and quality across locations is impressive.",
+      text: "We've used Paramount Painting for multiple properties across Phoenix. Their consistency and quality across locations is impressive.",
       rating: 5,
       location: "Phoenix, AZ",
       type: "Property Management"
     },
     {
       name: "Emily Rodriguez",
-      text: "From our small starter home to our current luxury property, Paint Puncher has always delivered premium quality. Truly the best in Salt Lake City!",
+      text: "From our small starter home to our current luxury property, Paramount Painting has always delivered premium quality. Truly the best in Salt Lake City!",
       rating: 5,
       location: "Salt Lake City, UT",
       type: "Residential Client"
     },
     {
       name: "David Chen",
-      text: "The attention to detail on our historic building restoration was remarkable. Paint Puncher's expertise in heritage properties is unmatched.",
+      text: "The attention to detail on our historic building restoration was remarkable. Paramount Painting's expertise in heritage properties is unmatched.",
       rating: 5,
       location: "Denver, CO",
       type: "Commercial Property Owner"
@@ -68,7 +68,7 @@ function App() {
     },
     {
       name: "Robert Wilson",
-      text: "Paint Puncher handled our multi-unit apartment complex with minimal disruption to tenants. Their organization and efficiency were impressive.",
+      text: "Paramount Painting handled our multi-unit apartment complex with minimal disruption to tenants. Their organization and efficiency were impressive.",
       rating: 5,
       location: "Phoenix, AZ",
       type: "Property Developer"
@@ -82,7 +82,7 @@ function App() {
     },
     {
       name: "Mark Thompson",
-      text: "As a general contractor, I've worked with many painting companies. Paint Puncher consistently delivers the highest quality on commercial projects.",
+      text: "As a general contractor, I've worked with many painting companies. Paramount Painting consistently delivers the highest quality on commercial projects.",
       rating: 5,
       location: "Las Vegas, NV",
       type: "General Contractor"
@@ -96,7 +96,7 @@ function App() {
     },
     {
       name: "Carlos Mendez",
-      text: "Paint Puncher's team went above and beyond with our restaurant renovation. The custom finishes and attention to our brand colors were perfect.",
+      text: "Paramount Painting's team went above and beyond with our restaurant renovation. The custom finishes and attention to our brand colors were perfect.",
       rating: 5,
       location: "Phoenix, AZ",
       type: "Restaurant Owner"
@@ -167,7 +167,7 @@ function App() {
       <header className="bg-[rgb(38,42,51)] shadow-sm sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center space-x-3">
-            <img src={logo} alt="Paint Puncher Logo" className="h-20" />
+            <img src={logo} alt="Paramount Painting Logo" className="h-20" />
           </div>
           <nav className="hidden lg:flex items-center space-x-8">
             <a href="#reviews" className="text-gray-600 hover:text-pink-500 font-medium">Reviews</a>
@@ -424,7 +424,7 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
             <div className="lg:col-span-2">
               <div className="flex items-center space-x-2 mb-6">
-                <img src={logo} alt="Paint Puncher Logo" className="h-16" />
+                <img src={logo} alt="Paramount Painting Logo" className="h-16" />
               </div>
               <p className="text-gray-400 mb-6">
                 The Mountain West's premier painting company, delivering exceptional results across residential and commercial projects since 1998.
@@ -466,7 +466,7 @@ function App() {
             </div>
           </div>
           <div className="mt-12 pt-8 border-t border-gray-700 text-center text-gray-400">
-            <p>&copy; 2024 Paint Puncher. All rights reserved.</p>
+            <p>&copy; 2024 Paramount Painting. All rights reserved.</p>
           </div>
         </div>
       </footer>
